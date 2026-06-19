@@ -1,0 +1,26 @@
+package codeup.q1046;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		long n1 = sc.nextLong();
+		long n2 = sc.nextLong();
+		long n3 = sc.nextLong();
+		
+		long sum = n1 + n2 + n3;
+		double avg = (double)sum/3;
+		
+		System.out.println(sum);
+		System.out.printf("%.1f", avg);
+		
+		sc.close();
+		
+		
+
+	}
+
+}
