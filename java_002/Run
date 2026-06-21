@@ -1,0 +1,29 @@
+package com.kh.run;
+
+import com.kh.model.vo.Cat;
+
+public class Run {
+public static void main(String[] args) {
+		
+	 Cat dubu = new Cat("두부", 8, "암컷", "흰색", "스코티쉬 폴드");
+     Cat moka = new Cat("모카", 5, "암컷", "삼색이(흰/검/갈)", "코리안 숏헤어");
+     Cat aegi = new Cat("애기", 3, "수컷", "턱시도(검/흰)", "코리안 숏헤어");
+
+     System.out.println("===== 두부 정보 =====");
+     dubu.inform();
+
+     System.out.println();
+
+     System.out.println("===== 모카 정보 =====");
+     moka.inform();
+
+     System.out.println();
+
+     System.out.println("===== 애기 정보 =====");
+     aegi.inform();
+		
+		
+
+	}
+
+}
